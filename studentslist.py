@@ -6,7 +6,7 @@ excelDocument = openpyxl.load_workbook('Eleves.xlsx')
 print(type(excelDocument))
 #Acceder a une feuille
 sheet = excelDocument.worksheets[0]
-cell = sheet['E2'].value
+cell = sheet['B2'].value
 print(type(cell))
 
 #Ici nous allons creer des classeur
